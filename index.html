@@ -23,7 +23,7 @@
         <a-mixin id="overlay-fade-in" animation="property: opacity; dir: normal; dur: 500; easing: easeOutQuad; loop: false; from:0; to: .75; startEvents: clickDown;"></a-mixin>
       </a-assets>
 
-      <a-entity position="0 1.6 0" camera="userHeight: 1.6" look-controls cursor="rayOrigin: mouse" ></a-entity>
+      <a-entity position="0 1.6 0" camera look-controls  wasd-controls ></a-entity>
       <a-entity id="leftHand" laser-controls="hand: left" ></a-entity>
       <a-entity id="rightHand" laser-controls="hand: right" line="color: #118A7E"></a-entity>
 
